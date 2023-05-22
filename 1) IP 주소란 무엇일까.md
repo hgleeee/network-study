@@ -7,7 +7,7 @@
 2. LAN (Local Area Network) : 근거리 영역 네트워크
 3. MAN (Metropolitan Area Network) : 대도시 영역 네트워크
 4. WAN (Wide Area Network) : 광대역 네트워크
-<p align="center"><img src="../images/network_sort.jpg" width="500"></p>
+<p align="center"><img src="./images/network_sort.jpg" width="500"></p>
 
 ## IP 주소란?
 > 네트워킹이 가능한 장비를 식별하는 주소
@@ -29,7 +29,7 @@
 - IP 주소를 3개의 클래스로 나누는 이유는 네트워크 크기에 따른 구분이다.
 - 하나의 네트워크에서 몇 개의 호스트 IP까지 가질 수 있는가에 따라 클래스를 나눌 수 있다.
 
-<p align="center"><img src="../images/ip_address_class.jpg" width="500"></p>
+<p align="center"><img src="./images/ip_address_class.jpg" width="500"></p>
 
 - IP주소 클래스는 A클래스, B클래스, C클래스, D클래스, E클래스 총 5개가 있다. (D, E 클래스는 멀티캐스트용, 연구용으로 사용)
 
