@@ -65,7 +65,7 @@
 
 ## TCP/IP 모델
 > OSI 참조 모델은 말 그대로 참조 모델일 뿐 실제 사용되는 인터넷 프로토콜은 현재 대부분 TCP/IP 모델을 따른다.
-<p align="center"><img src="./images/tcp_ip_model.png" width="500"></p>
+<p align="center"><img src="./images/tcp_ip_model.png" width="350"></p>
 
 - 인터넷 프로토콜 중 가장 중요한 역할을 하는 TCP와 IP의 합성어로 데이터의 흐름 관리, 정확성 확인, 패킷의 목적지 도달 보장을 담당한다.
 - 데이터의 정확성 확인은 TCP가, 패킷을 목적지까지 도달하게 하는 일은 IP가 담당한다.
