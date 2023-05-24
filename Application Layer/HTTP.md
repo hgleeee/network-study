@@ -10,7 +10,7 @@
 > - __클라이언트__ : 서버에게 요청을 보내는 리소스 사용자 ex) 웹 브라우저, 모바일 애플리케이션, IoT 등
 > - __서버__ : 클라이언트에게 요청에 대한 응답을 제공하는 리소스 관리자
 
-<p align="center"><img src="./images/HTTP_1.png" width="500"></p>
+<p align="center"><img src="../images/HTTP_1.png" width="500"></p>
 
 - 클라이언트(웹 브라우저, 모바일)가 브라우저를 통해 어떠한 서비스를 URI를 통해 서버에 요청하면 서버에서는 해당 요청에 대한 결과를 응답하는 형태로 동작한다.
 
@@ -38,14 +38,14 @@
 
 ## HTTP 메시지
 ### 요청(Request)
-<p align="center"><img src="./images/http_request.png" width="500"></p>
+<p align="center"><img src="../images/http_request.png" width="500"></p>
 
 - 1번 줄 : HTTP 요청 메서드를 맨 앞에 적고 그 뒤에는 path, 그 뒤에는 프로토콜의 종류와 버전을 적는다.
 - 2번 줄 이후 : HTTP Requeust Headers 부분
 - 2번 줄 : 리소스를 요청하는 경로, 즉 요청하고자 하는 서버의 도메인을 적는다. 위의 예시에서 포트 번호가 생략된 것은 80번 포트(HTTP 기본 포트)이기 때문이다.
 
 ### 응답(Response)
-<p align="center"><img src="./images/http_response.png" width="500"></p>
+<p align="center"><img src="../images/http_response.png" width="500"></p>
 
 - 1번 줄: 프로토콜의 종류와 버전, [HTTP 상태 코드](https://www.naver.com), HTTP 상태 메시지를 적는다. (GET / HTTP/1.1)
 - 2번 줄 이후: HTTP Reponse Headers 부분이다.
