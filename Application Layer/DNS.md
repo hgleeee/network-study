@@ -22,7 +22,7 @@
 - 수많은 네임 서버에 접근하여 사용자로부터 요청받은 도메인의 IP 정보를 조회하는 기능 수행
 
 ## 동작 방식
-<p align="center"><img src="../images/dns_process.png" width="500"></p>
+<p align="center"><img src="../images/dns_process.png" width="700"></p>
 
 ### DNS Query(쿼리)란?
 - DNS 클라이언트와 DNS 서버는 DNS 쿼리를 교환한다.
@@ -37,7 +37,7 @@
 - Recursive 서버에 이미 IP 주소가 캐시 되어있다면 이 과정은 건너 뛴다.
 
 ## DNS 동작 순서
-<p align="center"><img src="../images/dns_process_order.png" width="500"></p>
+<p align="center"><img src="../images/dns_process_order.png" width="700"></p>
 
 ### 1번 과정 
 - 웹 브라우저에 www.naver.com 을 입력하면 먼저 PC에 저장된 Local DNS(기지국 DNS 서버)에게 "www.naver.com" 이라는 hostname"에 대한 IP 주소를 요청한다.
