@@ -47,5 +47,5 @@
 ### 응답(Response)
 <p align="center"><img src="../images/http_response.png" width="500"></p>
 
-- 1번 줄: 프로토콜의 종류와 버전, [HTTP 상태 코드](https://www.naver.com), HTTP 상태 메시지를 적는다. (GET / HTTP/1.1)
+- 1번 줄: 프로토콜의 종류와 버전, [HTTP 상태 코드](https://github.com/hgleeee/network-study/blob/main/Application%20Layer/HTTP%20%EC%83%81%ED%83%9C%20%EC%BD%94%EB%93%9C.md), HTTP 상태 메시지를 적는다. (GET / HTTP/1.1)
 - 2번 줄 이후: HTTP Reponse Headers 부분이다.
