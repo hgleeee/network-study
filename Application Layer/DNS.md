@@ -44,7 +44,7 @@
 - Local DNS 에는 "www.naver.com 의 IP 주소"가 있을 수도 없을 수도 있다. (본 설명에서는 Local DNS에 "www.naver.com 의 IP 주소"가 없다고 가정 한다.)
 - 만일 예전에 네이버에 접속했던 적이 있다면, Local DNS에 접속정보가 캐싱이 되어있어 바로 PC에 IP 주소를 주고 끝난다. (바로 1번 → 8번으로 넘어가 빠르게 웹페이지에 접속할수 있다)
 
-> Local DNS(기지국 DNS 서버)란?
+> __Local DNS(기지국 DNS 서버)란?__
 > - 기본적으로 인터넷을 사용하기 위해선 IP를 할당해주는 통신사(KT, SK, LG 등...)에 등록하게 된다.
 > - 컴퓨터의 LAN선을 통해 인터넷이 연결되면, 가입했던 각 통신사의 기지국 DNS 서버가 등록되게 된다.
 > - 그러니까 KT를 사용하는 집이면 KT DNS가 되고, SK통신사 사용하는 집이면 SK DNS가 자동으로 셋팅 된다.
@@ -54,7 +54,7 @@
 - 그러면 Local DNS는 이제 "www.naver.com 의 IP 주소"를 찾아내기 위해 다른 DNS 서버들과 통신(DNS 쿼리)을 시작한다.
 - 먼저 Root DNS 서버에게 "www.naver.com 의 IP 주소"를 요청한다.
 
-> Root DNS(루트 네임서버)란?
+> __Root DNS(루트 네임서버)란?__
 > - Root DNS는 인터넷의 도메인 네임 시스템의 루트 존이다.
 > - ICANN이 직접 관리하는 절대 존엄 서버로, TLD DNS 서버 IP들을 저장해두고 안내하는 역할을 한다.
 > - 전세계에 961개의 루트 DNS가 운영되고 있다.
@@ -65,7 +65,7 @@
 ### 4번 과정
 - 이제 Local DNS 서버는 com 도메인을 관리하는 TLD DNS 서버(최상위 도메인 서버)에 다시 www.naver.com에 대한 IP 주소를 요청한다.
 
-> TLD(Top-Level Domain, 최상위 도메인) DNS Server 란?
+> __TLD(Top-Level Domain, 최상위 도메인) DNS Server란?__
 > - TLD는 도메인 등록 기관(Registry)이 관리하는 서버로, 도메인 네미의 가장 마지막 부분을 말한다.
 > - 예를 들어 웹사이트에서 한번쯤은 봐왔던 .com 이나 co.kr 같은 도메인들을 관리하고 부여하는 서버이다.
 > - Authoritative DNS 서버 주소를 저장해두고 안내하는 역할을 한다.
@@ -75,7 +75,7 @@
 
 ### 6번 과정 
 - 이제 Local DNS 서버는 naver.com DNS 서버(Authoritative DNS 서버)에게 다시 "www.naver.com 의 IP 주소" 를 요청한다.
-> Authoritative DNS Server 란?
+> __Authoritative DNS Server 란?__
 > - 실제 개인 도메인과 IP 주소의 관계가 기록/저장/변경되는 서버.
 > - 따라서, 권한의 의미인 Authoritative가 붙는다.
 > - 일반적으로 도메인/호스팅 업체의 네임서버를 말하지만, 개인이나 회사 DNS 서버 구축을 한 경우에도 여기에 해당하게 된다.
