@@ -63,8 +63,24 @@
 ### Selective Repeat Dilemma (SR 딜레마)
 - SR은 GBN에 비해 매우 효율적으로 보인다. 하지만 SR은 큰 딜레마를 가지고 있다.
 
+#### Case #1
 <p align="center"><img src="../images/sr_dilemma_1.png" width="800"></p>
 
+- window size가 3이고 sequence number는 0, 1, 2, 3 이라고 하자. 또한 수신 측과 송신 측이 서로를 볼 수 없다고 가정하자. 
+- 위의 SR 동작에서 보이진 않았지만, 수신 측도 기다리던 패킷을 받으면 window 에서 rcv_base를 옆으로 한 칸씩 밀게 된다. 
+- 즉, 위 그림과 같은 상황에서는 아무 문제가 발생하지 않는다.
+
+#### Case #2 (문제)
 <p align="center"><img src="../images/sr_dilemma_2.png" width="800"></p>
 
+- 하지만 위와 같이 ACK 0, 1, 2가 모두 손실된다면 문제가 발생한다.
+- 수신 측은 패킷 0, 1, 2를 제대로 받았으므로 ACK 0, 1, 2를 보내고 rcv_base를 한 칸씩 밀어 rcv_base는 3이 될 것이다.
+- 송신 측은 패킷 0, 1, 2를 보내고 ACK 신호가 오지 않으므로 timeout되고 패킷 0을 다시 보낼 것이다.
+- 문제는 수신 측의 window 안에 0이 들어 있다는 것이다.
+- 수신 측은 송신측의 상황을 모르기 때문에 이번에 들어온 패킷 0이 올바른 패킷으로 판단하고 패킷 0을 버퍼에 넣을 것이다.
+- 하지만 이번에 들어온 패킷 0은 이미 예전에 받은 패킷 0과 똑같은, 즉 중복된 패킷을 받게 되는 문제가 발생한다.
+
+#### Case #3 (해결)
 <p align="center"><img src="../images/sr_dilemma_3.png" width="800"></p>
+
+- 위의 같은 상황에서 window size를 2로 줄이면 문제가 해결된다. 
