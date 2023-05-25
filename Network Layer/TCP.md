@@ -75,7 +75,7 @@
 - 이러한 문제점을 해결할 수 있는 방식이 3-way-handshake이다.
 
 ### 3-way handshake
-<p align="center"><img src="../images/3_way_handshake.png" width="500"></p>
+<p align="center"><img src="../images/3_way_handshake.png" width="800"></p>
 
 #### Step 1
 - 클라이언트가 서버에 접속을 요청하는 SYN 패킷을 보낸다.
