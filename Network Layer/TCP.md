@@ -57,6 +57,7 @@
 
 ### 2-way handshake
 <p align="center"><img src="../images/2_way_handshake.png" width="500"></p>
+
 - 클라이언트가 서버에게 연결을 요청하면 서버에서 이를 받아들이고, 연결을 만든 후 연결을 받아들인다는 신호를 클라이언트에 보낸다.
 - 그러고 난 뒤 클라이언트에서도 연결을 만든다.
 
@@ -71,6 +72,7 @@
 
 ### half-open connection
 <p align="center"><img src="../images/half_open_connection.png" width="500"></p>
+
 - 위 그림과 같이 ACK가 오기 전에 요청을 재전송하게 되는 경우에는 서버만 ESTAB 되고 클라이언트는 ESTAB 되지 않는 half-open connection 문제가 발생할 수 있다.
 - 이러한 문제점을 해결할 수 있는 방식이 3-way-handshake이다.
 
