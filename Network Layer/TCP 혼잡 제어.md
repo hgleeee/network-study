@@ -28,7 +28,7 @@
 ## 정책
 ### TCP Tahoe
 > TCP Tahoe는 처음에는 Slow Start를 사용하다가 임계점(Threshold)에 도달하면 AIMD 방식을 사용한다.
-<p align="center"><img src="../images/tcp_tahoe.png" width="700"></p>
+<p align="center"><img src="../images/tcp_tahoe.png" width="500"></p>
 
 - 처음 window size는 1 MSS이다.
 - 임계점까지는 Slow Start를 사용한다(window size가 2배씩 증가한다)
