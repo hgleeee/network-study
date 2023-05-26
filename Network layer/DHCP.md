@@ -24,7 +24,7 @@
 - 물론, IP가 더 이상 필요 없어지면 IP 주소를 반납할 수 있다.
 
 ## 절차
-<p align="center"><img src="../images/dhcp_procedure.gif" width="500"></p>
+<p align="center"><img src="../images/dhcp_procedure.gif" width="800"></p>
 
 ### 1. DHCP Server Discovery
 - 클라이언트는 처음에 DHCP 서버의 주소를 모른다. 때문에 서브넷 내 모두에게 DHCP 서버를 찾는 메세지를 브로드캐스팅한다.
