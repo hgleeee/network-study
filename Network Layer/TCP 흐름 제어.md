@@ -18,7 +18,7 @@
 ## 흐름 제어 기법 종류
 ### Stop-And-Wait
 > 매번 전송한 패킷에 대한 확인 응답을 받아야만 그 다음 패킷을 전송하는 기법
-<p align="center"><img src="../images/stop_and_wait.png" width="300"></p>
+<p align="center"><img src="../images/stop_and_wait.png" width="200"></p>
 
 ### Sliding Window (Go-Back-N ARQ)
 > 수신측에서 설정한 윈도우 크기만큼 송신측에서 패킷 각각에 대한 확인 응답없이 세그먼트를 전송하게 하고, 데이터 흐름을 동적으로 조절하는 기법
