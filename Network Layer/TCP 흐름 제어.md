@@ -46,6 +46,7 @@
 
 #### 3. 송신 윈도우
 <p align="center"><img src="../images/sliding_window_3.png" width="500"></p>
+
 - 수신 윈도우보다 작거나 같은 크기로 송신 윈도우를 지정하여 흐름제어
 
 #### 4. 송신 윈도우 슬라이딩 (이동)
