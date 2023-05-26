@@ -18,7 +18,7 @@
 ## 흐름 제어 기법 종류
 ### Stop-And-Wait
 > 매번 전송한 패킷에 대한 확인 응답을 받아야만 그 다음 패킷을 전송하는 기법
-<p align="center"><img src="../images/stop_and_wait.png" width="500"></p>
+<p align="center"><img src="../images/stop_and_wait.png" width="300"></p>
 
 ### Sliding Window (Go-Back-N ARQ)
 > 수신측에서 설정한 윈도우 크기만큼 송신측에서 패킷 각각에 대한 확인 응답없이 세그먼트를 전송하게 하고, 데이터 흐름을 동적으로 조절하는 기법
@@ -30,7 +30,7 @@
 
 - 윈도우 크기만큼 패킷을 모두 전송하고, 그 패킷들의 전달이 확인되는대로 해당 윈도우를 옆으로 슬라이딩하면서 그 다음 패킷을 전송하는 방식으로 동작한다.
 
-<p align="center"><img src="../images/sliding_window.png" width="700"></p>
+<p align="center"><img src="../images/sliding_window.png" width="500"></p>
 
 - TCP/IP를 사용하는 모든 호스트들은 송신과 수신을 위한 2개의 window를 가진다.
 - 호스트들은 실제 데이터를 보내기 전에 3-way handshake를 통해 연결 설정을 해줄 때 수신 호스트의 Receive Window 크기에 자신의 Send Window 크기를 맞춰 설정한다.
