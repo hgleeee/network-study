@@ -6,7 +6,7 @@
 - 그래서 이러한 단점을 보완하기위해 나온게 바로 ICMP이다.
 
 ## 패킷의 형태
-<p align="center"><img src="../images/icmp_1.png" width="700"></p>
+<p align="center"><img src="../images/icmp_1.png" width="500"></p>
 
 - __Type__ : ICMP의 패킷 종류를 의미한다
 - __Code__ : Type에서 파생된 세부 분류를 의미한다
@@ -15,7 +15,7 @@
 - __Payload__ : 직접적인 데이터 내용이 있는 부분이다
 
 ## Type의 세부 내용
-<p align="center"><img src="../images/icmp_1.png" width="700"></p>
+<p align="center"><img src="../images/icmp_2.png" width="600"></p>
 
 - 먼저 에러타입 3번에 해당하는 Destination Unreachable 코드들은
 
