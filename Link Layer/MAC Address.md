@@ -36,7 +36,7 @@
 4. Z는 Y에게 MAC address를 알려주고, Y는 받은 MAC address로 통신을 시작하게 된다.
 
 ### 다른 네트워크 상에 있을 경우
-<p align="center"><img src="../images/mac_address_process_2.jpeg" width="500"></p>
+<p align="center"><img src="../images/mac_address_process_2.jpeg" width="700"></p>
 
 1. Y가 Broadcast를 보낸다.
 2. 하지만 이 경우, 자신이 속한 네트워크상에서는 Z라는 PC가 없기 때문에 ARP Request를 받지 못한다.
